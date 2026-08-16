@@ -2,7 +2,7 @@
 
 
 A retrieval-augmented generation (RAG) assistant that answers B2B channel-policy
-questions for account managers, grounded in a partner handbook — with built-in
+questions for account managers, grounded in a partner handbook, with built-in
 hallucination guardrails and source citation.
 
 
@@ -21,7 +21,7 @@ Question → [Retrieval: keyword scoring + relevance threshold]
 
 
 ## Key Features
-- **Grounded answers**: responses are generated only from retrieved handbook sections,
+- **Grounded answers**: responses are generated only from retrieved handbook sections
   with the source section cited
 - **Hallucination guardrails**: relevance threshold (match-ratio check) rejects
   out-of-scope questions with "Not found in handbook." instead of guessing
